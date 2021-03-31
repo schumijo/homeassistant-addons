@@ -1,0 +1,1 @@
+echo # homeassistant-addons

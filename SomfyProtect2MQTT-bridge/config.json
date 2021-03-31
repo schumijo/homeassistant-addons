@@ -1,0 +1,44 @@
+{
+  "name": "Somfy Home Assistant MQTT Bridge",
+  "version": "0.0.1",
+  "slug": "somfy-ha-mqtt-bridge",
+  "description": "Publish somfy alarm as MQTT messages",
+  "image": "schumijo/image-{arch}-somfy-ha-mqtt-bridge",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "somfy_protect": {
+      "username": "mail@example.org",
+      "password": "iliketurtles"
+    },
+    "mqtt": {
+      "host": "192.168.x.x",
+      "port": "1883",
+      "username": "homeassistant",
+      "password": "homeassistant",
+      "client-id": "somfy-protect",
+      "topic_prefix": "somfyProtect2mqtt",
+      "ha_discover_prefix": "homeassistant"
+    },
+    "delay_site": "10",
+    "delay_device": "60"
+  },
+  "schema": {
+    "somfy_protect": {
+      "username": "str",
+      "password": "str"
+    },
+    "mqtt": {
+      "host": "str",
+      "port": "int",
+      "username": "str?",
+      "password": "str?",
+      "client-id": "str?",
+      "topic_prefix": "str?",
+      "ha_discover_prefix": "str?"
+    },
+    "delay_site": "int?",
+    "delay_device": "int?"
+  }
+}

@@ -1,0 +1,1 @@
+# SomfyProtect2MQTT-bridge
