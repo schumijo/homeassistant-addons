@@ -1,6 +1,6 @@
 {
   "name": "Somfy Home Assistant MQTT Bridge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "slug": "somfy-ha-mqtt-bridge",
   "description": "Publish somfy alarm as MQTT messages",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
