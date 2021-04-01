@@ -1,6 +1,6 @@
 {
   "name": "Somfy Home Assistant MQTT Bridge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "somfy-ha-mqtt-bridge",
   "description": "Publish somfy alarm as MQTT messages",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -9,7 +9,8 @@
   "options": {
     "somfy_protect": {
       "username": "mail@example.org",
-      "password": "iliketurtles"
+      "password": "iliketurtles",
+      "sites": ["Maison"]
     },
     "mqtt": {
       "host": "192.168.x.x",
@@ -26,7 +27,8 @@
   "schema": {
     "somfy_protect": {
       "username": "str",
-      "password": "str"
+      "password": "str",
+      "sites": ["str"]
     },
     "mqtt": {
       "host": "str",
