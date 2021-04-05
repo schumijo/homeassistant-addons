@@ -1,7 +1,7 @@
 {
-  "name": "Somfy Protect Home Assistant MQTT Bridge",
+  "name": "Somfy Protect 2 MQTT",
   "version": "0.0.4",
-  "slug": "somfy-protect-ha-mqtt-bridge",
+  "slug": "somfy-protect-2-mqtt",
   "description": "Publish somfy alarm as MQTT messages",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",

@@ -1,0 +1,47 @@
+{
+  "name": "Somfy Protect 2 MQTT",
+  "version": "0.0.4",
+  "slug": "somfy-protect-2-mqtt",
+  "description": "Publish somfy alarm as MQTT messages",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "somfy_protect": {
+      "username": "mail@example.org",
+      "password": "iliketurtles",
+      "sites": ["Maison"]
+    },
+    "mqtt": {
+      "host": "192.168.x.x",
+      "port": 1883,
+      "username": "homeassistant",
+      "password": "homeassistant",
+      "client-id": "somfy-protect",
+      "topic_prefix": "somfyProtect2mqtt",
+      "ha_discover_prefix": "homeassistant"
+    },
+    "delay_site": "10",
+    "delay_device": "60",
+    "debug": false
+  },
+  "schema": {
+    "somfy_protect": {
+      "username": "str",
+      "password": "str",
+      "sites": ["str"]
+    },
+    "mqtt": {
+      "host": "str",
+      "port": "int",
+      "username": "str?",
+      "password": "str?",
+      "client-id": "str?",
+      "topic_prefix": "str?",
+      "ha_discover_prefix": "str?"
+    },
+    "delay_site": "int?",
+    "delay_device": "int?",
+    "debug": "bool"
+  }
+}
