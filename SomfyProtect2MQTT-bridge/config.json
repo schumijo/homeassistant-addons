@@ -14,7 +14,7 @@
     },
     "mqtt": {
       "host": "192.168.x.x",
-      "port": "1883",
+      "port": 1883,
       "username": "homeassistant",
       "password": "homeassistant",
       "client-id": "somfy-protect",
@@ -22,7 +22,8 @@
       "ha_discover_prefix": "homeassistant"
     },
     "delay_site": "10",
-    "delay_device": "60"
+    "delay_device": "60",
+    "debug": false
   },
   "schema": {
     "somfy_protect": {
@@ -40,6 +41,7 @@
       "ha_discover_prefix": "str?"
     },
     "delay_site": "int?",
-    "delay_device": "int?"
+    "delay_device": "int?",
+    "debug": "bool"
   }
 }
