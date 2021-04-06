@@ -2,7 +2,7 @@
 
 ## 0.1.0
 
-- Addon renamed "Somfy Protect 2 MQTT"
+- Addon renamed "SomfyProtect2MQTT"
 - Lot of code rewritten (thanks to @Minims)
 - Migrate to Minims/SomfyProtect2MQTT master branch
 - Based on release v0.1.0b

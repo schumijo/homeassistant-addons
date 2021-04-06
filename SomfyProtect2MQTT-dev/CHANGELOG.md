@@ -2,7 +2,7 @@
 
 ## 0.1.0
 
-- Addon renamed "Somfy Protect 2 MQTT"
+- Addon renamed "SomfyProtect2MQTT-dev"
 - Lot of code rewritten (thanks to @Minims)
 - Based on dev branch
 - Added logo, icon, changelog, docs...
