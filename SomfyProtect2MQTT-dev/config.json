@@ -1,8 +1,9 @@
 {
-  "name": "Somfy Home Assistant MQTT Bridge",
-  "version": "0.0.4",
-  "slug": "somfy-ha-mqtt-bridge",
-  "description": "Publish somfy alarm as MQTT messages",
+  "name": "SomfyProtect2MQTT-dev",
+  "version": "0.1.0",
+  "slug": "somfy-protect-2-mqtt-dev",
+  "description": "Publish Somfy Home Alarm as MQTT messages (dev branch)",
+  "url": "https://github.com/schumijo/homeassistant-addons/tree/main/SomfyProtect2MQTT-dev",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
