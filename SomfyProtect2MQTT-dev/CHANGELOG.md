@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Changed tar link
+
 ## 0.1.0
 
 - Addon renamed "SomfyProtect2MQTT-dev"

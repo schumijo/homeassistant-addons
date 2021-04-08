@@ -8,7 +8,7 @@ RUN pip3 install python-json2yaml
 
 # Download source and untar
 WORKDIR /usr/src
-ADD "https://github.com/Minims/SomfyProtect2MQTT/archive/refs/heads/dev.zip" src.tar.gz
+ADD "https://github.com/Minims/SomfyProtect2MQTT/archive/refs/heads/dev.tar.gz" src.tar.gz
 RUN tar -xvf src.tar.gz
 RUN mv /usr/src/SomfyProtect2MQTT-dev /usr/src/SomfyProtect2MQTT
 
