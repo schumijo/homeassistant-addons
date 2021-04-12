@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Use SomfyProtect2MQTT 0.1.1 (Improve device update on action and camera snapshot refresh)
+
 ## 0.1.0
 
 - Addon renamed "SomfyProtect2MQTT"
