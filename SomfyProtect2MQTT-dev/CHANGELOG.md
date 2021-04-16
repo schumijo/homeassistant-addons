@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Add build.json file (thanks to @Minims)
+
 ## 0.1.1
 
 - Changed tar link

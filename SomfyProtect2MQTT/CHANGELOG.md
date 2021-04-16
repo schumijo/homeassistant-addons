@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Add build.json file (thanks to @Minims)
+
 ## 0.1.1
 
 - Use SomfyProtect2MQTT 0.1.1 (Improve device update on action and camera snapshot refresh)
