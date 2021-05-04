@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3
+
+- Use SomfyProtect2MQTT 0.1.2
+- Fix Stop Alarm
+- Fix Trigger Alarm
+- Do not publish unwanted devices
+
 ## 0.1.2
 
 - Add build.json file (thanks to @Minims)
