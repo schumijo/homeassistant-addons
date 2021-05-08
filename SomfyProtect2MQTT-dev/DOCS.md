@@ -24,6 +24,11 @@ somfy_protect:
   password: iliketurtles
   sites:
     - Maison
+homeassistant_config:
+  code: 1234
+  code_arm_required: false
+  code_disarm_required: true
+
 mqtt:
   host: 192.168.1.1
   port: '1883'
@@ -47,6 +52,20 @@ Username and password to use to authenticate to Somfy account.
 #### Option `sites`
 
 A list of sites to retrieve datas.
+
+### Option group `homeassistant_config`
+The following options are for the option group: `homeassistant_config`.
+
+#### Option `code`
+
+A code to arm/desarm in HA.
+
+#### Option `code_arm_required`
+
+Set to `false` if you want to arm without code
+#### Option `code_disarm_required`
+
+Set to `false` if you want to disarm without code
 
 ### Option group `mqtt`
 
