@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.4
+
+- Use SomfyProtect2MQTT 0.1.3
+- Fix OutDoor Camera Snapshot
+- Add possibilty to setup a code on alarm panel
+- Allow to disable code on arm and/or disarm
+
 ## 0.1.3
 
 - Use SomfyProtect2MQTT 0.1.2
