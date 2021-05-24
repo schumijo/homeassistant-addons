@@ -13,11 +13,6 @@
       "password": "iliketurtles",
       "sites": ["Maison"]
     },
-    "homeassistant_config": {
-      "code": "int?",
-      "code_arm_required": "bool",
-      "code_disarm_required": "bool"
-    },
     "mqtt": {
       "host": "192.168.x.x",
       "port": 1883,
@@ -36,6 +31,11 @@
       "username": "str",
       "password": "str",
       "sites": ["str"]
+    },
+    "homeassistant_config": {
+      "code": "int?",
+      "code_arm_required": "bool",
+      "code_disarm_required": "bool"
     },
     "mqtt": {
       "host": "str",
