@@ -14,9 +14,9 @@
       "sites": ["Maison"]
     },
     "homeassistant_config": {
-      "code": "int?",
-      "code_arm_required": "bool",
-      "code_disarm_required": "bool"
+      "code": "0000",
+      "code_arm_required": false,
+      "code_disarm_required": false
     },
     "mqtt": {
       "host": "192.168.x.x",
@@ -36,6 +36,11 @@
       "username": "str",
       "password": "str",
       "sites": ["str"]
+    },
+    "homeassistant_config": {
+      "code": "int?",
+      "code_arm_required": "bool",
+      "code_disarm_required": "bool"
     },
     "mqtt": {
       "host": "str",
