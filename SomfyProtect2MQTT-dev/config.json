@@ -1,6 +1,6 @@
 {
   "name": "SomfyProtect2MQTT-dev",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "slug": "somfy-protect-2-mqtt-dev",
   "description": "Publish Somfy Home Alarm as MQTT messages (dev branch)",
   "url": "https://github.com/schumijo/homeassistant-addons/tree/main/SomfyProtect2MQTT-dev",
@@ -12,6 +12,11 @@
       "username": "mail@example.org",
       "password": "iliketurtles",
       "sites": ["Maison"]
+    },
+    "homeassistant_config": {
+      "code": "1234",
+      "code_arm_required": false,
+      "code_disarm_required": false
     },
     "mqtt": {
       "host": "192.168.x.x",
