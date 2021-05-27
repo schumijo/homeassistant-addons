@@ -14,7 +14,7 @@
       "sites": ["Maison"]
     },
     "homeassistant_config": {
-      "code": "1234",
+      "code": "set code or remove this line to disable code",
       "code_arm_required": false,
       "code_disarm_required": false
     },
