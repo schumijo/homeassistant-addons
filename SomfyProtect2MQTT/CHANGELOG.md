@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+
+- Fix homeassistant_config schema
+
 ## 0.1.4
 
 - Use SomfyProtect2MQTT 0.1.3
