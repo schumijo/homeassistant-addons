@@ -1,6 +1,6 @@
 {
   "name": "SomfyProtect2MQTT-dev",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "slug": "somfy-protect-2-mqtt-dev",
   "description": "Publish Somfy Home Alarm as MQTT messages (dev branch)",
   "url": "https://github.com/schumijo/homeassistant-addons/tree/main/SomfyProtect2MQTT-dev",
@@ -14,7 +14,7 @@
       "sites": ["Maison"]
     },
     "homeassistant_config": {
-      "code": "set code or remove this line to disable code",
+      "code": "0",
       "code_arm_required": false,
       "code_disarm_required": false
     },
@@ -29,6 +29,7 @@
     },
     "delay_site": "10",
     "delay_device": "60",
+    "manual_snapshot": false,
     "debug": false
   },
   "schema": {
@@ -53,6 +54,7 @@
     },
     "delay_site": "int?",
     "delay_device": "int?",
+    "manual_snapshot": "bool",
     "debug": "bool"
   }
 }
