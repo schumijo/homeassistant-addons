@@ -6,6 +6,7 @@
 - Add Old MyFox Security Camera
 - Add Smoke Detector
 - Add Extender
+- Change default code value to 0
 
 ## 0.1.5
 
