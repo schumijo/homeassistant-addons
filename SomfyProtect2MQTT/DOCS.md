@@ -60,7 +60,7 @@ The following options are for the option group: `homeassistant_config`.
 
 #### Option `code`
 
-A code to arm/desarm in HA.
+A code to arm/desarm in HA. Set to 0 to disable.
 
 #### Option `code_arm_required`
 
