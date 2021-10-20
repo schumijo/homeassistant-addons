@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.6
+
+- Use SomfyProtect2MQTT 0.1.3
+- Change default code value to 0
+
 ## 0.1.5
 
 - Fix homeassistant_config schema
