@@ -1,8 +1,9 @@
 {
   "name": "SomfyProtect2MQTT-dev",
   "version": "0.1.9",
+  "stage": "deprecated",
   "slug": "somfy-protect-2-mqtt-dev",
-  "description": "Publish Somfy Home Alarm as MQTT messages (dev branch)",
+  "description": "DEPRECATED - Publish Somfy Home Alarm as MQTT messages (dev branch)",
   "url": "https://github.com/schumijo/homeassistant-addons/tree/main/SomfyProtect2MQTT-dev",
   "arch": [
     "armhf",

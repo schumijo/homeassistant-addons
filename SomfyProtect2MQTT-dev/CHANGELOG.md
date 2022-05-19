@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.10-deprecated
+
+- Addon deprecated (see README)
+
 ## 0.1.9
 
 - Add some new entities
